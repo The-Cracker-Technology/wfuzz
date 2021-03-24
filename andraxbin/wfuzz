@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source /opt/ANDRAX/wfuzz/wfuzzenv/bin/activate
+
+wfuzz "$@"
+
+deactivate
